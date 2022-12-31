@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="flex justify-center min-h-screen items-center bg-body-BG">
+    <div
+      class="md:w-1/4 w-11/12 bg-card-BG flex flex-col justify-center rounded-2xl text-text"
+    >
+      <div class="relative">
+        <img
+          class="w-10/12 mx-auto mt-10 rounded-2xl"
+          src="../images/image-equilibrium.jpg"
+          alt=""
+        />
+      </div>
+      <div class="w-10/12 ml-8">
+        <h1 class="mb-3 mt-3 text-white font-bold text-2xl hover:text-cyan">
+          Equilibrium #3429
+        </h1>
+        <p class="mb-3">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="flex justify-between">
+          <div class="flex gap-2 w-32">
+            <img src="../images/icon-ethereum.svg" alt="" />
+            <p class="text-cyan font-bold">0.041 ETH</p>
+          </div>
+          <div class="flex w-32 justify-end gap-2">
+            <img src="../images/icon-clock.svg" alt="" />
+            <p>3 days left</p>
+          </div>
+        </div>
+        <hr class="mt-6 mb-3 border-line" />
+      </div>
+      <div class="flex items-center gap-5 ml-8 pb-8">
+        <img
+          class="w-16 border-2 rounded-full border-gray-50"
+          src="../images/image-avatar.png"
+          alt=""
+        />
+        <p>
+          Creation of
+          <span class="text-white hover:text-cyan"> Jules Wyvern</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
